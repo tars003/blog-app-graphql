@@ -29,5 +29,5 @@ MYSQL_DATABASE='shyftlabs'
 	1. create / use existing mysql database
 	2. update db name, db user, db user password in .env file
 5. run command `npm run dev`
-6. 5. navigate to http://localhost:3000/graphql to access the API
-6. login route can be found at http://localhost:3000/auth
+6. navigate to http://localhost:3000/graphql to access the API
+7. login route can be found at http://localhost:3000/auth
