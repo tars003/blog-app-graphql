@@ -15,14 +15,14 @@
 1. clone github repo : [tars003/blog-app-graphql (github.com)](https://github.com/tars003/blog-app-graphql/tree/master)
 2. create a .env file in root folder
 ```yaml
-	JWT_SECRET='your-secret-key-here'
-	JWT_EXPIRATION_HOURS='720h'
-	SALT_ROUNDS=10
-	MYSQL_HOST='localhost'
-	MYSQL_PORT=3306
-	MYSQL_USER='shyftlab-user'
-	MYSQL_PASSWORD='abcd1234'
-	MYSQL_DATABASE='shyftlabs'
+JWT_SECRET='your-secret-key-here'
+JWT_EXPIRATION_HOURS='720h'
+SALT_ROUNDS=10
+MYSQL_HOST='localhost'
+MYSQL_PORT=3306
+MYSQL_USER='shyftlab-user'
+MYSQL_PASSWORD='abcd1234'
+MYSQL_DATABASE='shyftlabs'
 ```
 3. run command `npm i`
 4. make sure to setup mysql locally on your system
