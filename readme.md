@@ -2,19 +2,19 @@
 ## Postman collection : https://www.postman.com/lively-rocket-130218/workspace/personal/collection/64eaed0cc945b058057230b3?action=share&creator=10093619
 
 # Brief Description about code
-	1.description about packages used
+1.description about packages used
 		1.sequelize - orm for mysql
 		2. jwt - for authentication
 		3. bcrypt - for storing password in hashed manner
 		4. dotenv - for loading environment variables
-	2. description about features of app
+2. description about features of app
 		1. only a user himself can do update/delete mutations on his profile
 		2. only the post author can update/delete the respective post
 		3. only the comment author can update/delete the respective comment
 		4. while performing mutations on post and comment, if there is some 
 		   anomaly in associated data, i.e. foreign keys, author_id/post_id.
 		   I check for them and handle them.
-	3. desciption about structure of code
+3. description about structure of code
 		1. dir - middleware. consists of jwt middleware that handles the 
 		   logic for extracting jwt token out of the request headers and
 		   attaching user object to request before forwarding the request.
